@@ -7,11 +7,13 @@ import { environment } from 'src/environments/environment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'ng-environment';
+  title = 'redirecting..';
 
   apiURL = '';
 
   ngOnInit() {
     this.apiURL = environment.API_URL;
+    console.log("redirect URL: ", this.apiURL)
+    window.location.href = this.apiURL;
   }
 }
