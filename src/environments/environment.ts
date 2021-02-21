@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  API_URL: 'http://www.developmentserver.com'
+  API_URL: 'https://github.com/gauravghongde'
 };
 
 /*
